@@ -21,7 +21,6 @@ def main():
             answers.append(int(counter[x] > 0))
 
     print('\n'.join(map(str, answers)))
-        f.flush()
 
 
 if __name__ == '__main__':
